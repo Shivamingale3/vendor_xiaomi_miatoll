@@ -15461,6 +15461,8 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "libwfdnative",
+    // PenguinOS: libinput_shim (LineageOS hardware/lineage/compat) is not in AOSPA compat; WFD TODO.
+    check_elf_files: false,
     owner: "xiaomi",
     strip: {
         none: true,
@@ -15471,7 +15473,6 @@ cc_prebuilt_library_shared {
                 "proprietary/system_ext/lib64/libwfdnative.so",
             ],
             shared_libs: [
-                "libinput_shim",
                 "libandroid_runtime",
                 "libui",
                 "libinput",
