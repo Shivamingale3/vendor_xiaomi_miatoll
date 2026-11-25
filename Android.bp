@@ -3,15 +3,13 @@
 //
 
 soong_namespace {
+    // PenguinOS/AOSPA: only real namespaces may be imported. LineageOS's
+    // hardware/qcom-caf/* do not exist; AOSPA's display/media/audio HALs live in
+    // the root namespace (visible everywhere), and Wi-Fi is hardware/qcom/wlan/qcwcn.
     imports: [
         "device/xiaomi/miatoll",
-        "hardware/qcom-caf/sm8150",
-        "hardware/qcom-caf/wlan",
+        "hardware/qcom/wlan/qcwcn",
         "hardware/xiaomi",
-        "vendor/qcom/opensource/commonsys-intf/display",
-        "vendor/qcom/opensource/commonsys/display",
-        "vendor/qcom/opensource/dataservices",
-        "vendor/qcom/opensource/display",
     ],
 }
 
