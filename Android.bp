@@ -11,6 +11,7 @@ soong_namespace {
         "hardware/qcom/wlan/qcwcn",
         "hardware/xiaomi",
         // display/media come from the QTI components (matched with the AOSPA HALs)
+        "vendor/qcom/common/system/display",
         "vendor/qcom/common/vendor/display/4.14",
         "vendor/qcom/common/vendor/media/legacy",
     ],
