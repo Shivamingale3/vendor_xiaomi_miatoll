@@ -628,7 +628,6 @@ PRODUCT_PACKAGES += \
     libcvp_stub \
     libdataitems \
     libdisp-aba \
-    libdisplayqos \
     libdng_sdk2vendor \
     libdpmqmihal \
     libdpps \
@@ -642,7 +641,6 @@ PRODUCT_PACKAGES += \
     libgf_ca \
     libgf_hal \
     libgoodixhwfingerprint \
-    libhdr_tm \
     libhexagon_nn_stub \
     libhta_hexagon_runtime \
     libhvx_interface \
@@ -690,7 +688,6 @@ PRODUCT_PACKAGES += \
     libqcrildatactl \
     libqisl \
     libqrtr \
-    libqseed3 \
     libqtikeymaster4 \
     librcc \
     libremosaic_wrapper \
@@ -702,13 +699,7 @@ PRODUCT_PACKAGES += \
     libril-qcril-hook-oem \
     librilqmiservices \
     librpmb \
-    libsdedrm \
     libsdk_sr \
-    libsdm-color \
-    libsdm-colormgr-algo \
-    libsdm-diag \
-    libsdm-disp-vndapis \
-    libsdmextension \
     libsdsprpc \
     libsensorslog \
     libsettings \
@@ -729,7 +720,6 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libthermalfeature \
     libtime_genoff \
-    libtinyxml2_1 \
     libtriplecam_optical_zoom_control \
     libtriplecam_video_optical_zoom \
     libtrustedapploader \
@@ -750,11 +740,6 @@ PRODUCT_PACKAGES += \
     unnhal-acc-common \
     unnhal-acc-hta \
     unnhal-acc-hvx \
-    vendor.display.color@1.0 \
-    vendor.display.color@1.1 \
-    vendor.display.color@1.2 \
-    vendor.display.color@1.3 \
-    vendor.display.postproc@1.0 \
     vendor.qti.data.factory@2.0 \
     vendor.qti.data.factory@2.1 \
     vendor.qti.data.factory@2.2 \
@@ -816,8 +801,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.radio.uim_remote_client@1.2 \
     vendor.qti.hardware.radio.uim_remote_server@1.0 \
     vendor.qti.hardware.slmadapter@1.0 \
-    vendor.qti.hardware.vpp@1.1 \
-    vendor.qti.hardware.vpp@1.2 \
     vendor.qti.ims.callcapability@1.0 \
     vendor.qti.ims.callinfo@1.0 \
     vendor.qti.ims.factory@1.0 \
@@ -936,7 +919,6 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.0-service \
     vendor.qti.hardware.alarm@1.0-service \
     vendor.qti.hardware.capabilityconfigstore@1.0-service \
-    vendor.qti.media.c2@1.0-service \
     ims_rtp_daemon \
     imsdatadaemon \
     imsqmidaemon \
